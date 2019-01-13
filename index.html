@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <title>TriviaGame</title>
+  </head>
+  <body>
+    <div id="container">
+          <div id="header">
+              <h1>Totally Trivial Trivia!</h1>
+          </div>   
+    <br>
+    
+          <div id="timer">
+               <h2></h2>
+         </div>
+         <br>
+         <br>
+
+         <form id = "trivia" name = "trivia">
+
+          <p>The song "Hazy Shade of Winter", recorded by the Bangles, was included on which movie soundtrack?</p>
+          <input type = "radio" id = "mc" name = "q1" value = "Rush"> Rush<br>
+          <input type = "radio" id = "mc" name = "q1" value = "Youngblood"> Youngblood<br>
+          <input type = "radio" id = "mc" name = "q1" value = "The Breakfast Club"> The Breakfast Club<br>
+          <input type = "radio" id = "mc" name = "q1" value = "Less Than Zero"> Less Than Zero<br>
+         <br>
+          <p>Which Member of the Go-Gos released an album titled "Fur" with the forgettable single "Rush Hour"?</p>
+          <input type = "radio" id = "mc" name = "q2" value = "Belinda Carlisle"> Belinda Carlisle<br>
+          <input type = "radio" id = "mc" name = "q2" value = "Susanna Hoffs"> Susanna Hoffs<br>
+          <input type = "radio" id = "mc" name = "q2" value = "Kim Gordon"> Kim Gordon<br>
+          <input type = "radio" id = "mc" name = "q2" value = "Jane Weidlin"> Jane Weidlin<br>
+         <br>
+        <p>Who joined Michael Jackson on vocals in the song 'Say Say Say'?</p>
+          <input type = "radio" id = "mc" name = "q3" value = "Stevie Wonder"> Stevie Wonder<br>
+          <input type = "radio" id = "mc" name = "q3" value = "Paul McCartney"> Paul McCartney<br>
+          <input type = "radio" id = "mc" name = "q3" value = "Elton John"> Elton John<br>
+          <input type = "radio" id = "mc" name = "q3" value = "Boy George"> Boy George<br>
+         <br>
+        <p>Who sang 'I Know What Boys Like'?</p>
+        <input type = "radio" id = "mc" name = "q4" value = "Bow Wow Wow"> Bow Wow Wow<br>
+        <input type = "radio" id = "mc" name = "q4" value = "The Waitresses"> The Waitresses<br>
+        <input type = "radio" id = "mc" name = "q4" value = "Bananarama"> Bananarama<br>
+        <input type = "radio" id = "mc" name = "q4" value = "Cyndi Lauper"> Cyndi Lauper<br>
+         <br>
+        <p>In the Violent Femmes song 'Kiss Off', he takes 'one cuz you left me...'. Why does he take eight?</p>
+        <input type = "radio" id = "mc" name = "q5" value = "his headache"> his headache<br>
+        <input type = "radio" id = "mc" name = "q5" value = "his sorrow"> his sorrow<br>
+        <input type = "radio" id = "mc" name = "q5" value = "he forgets"> he forgets<br>
+        <input type = "radio" id = "mc" name = "q5" value = "everything"> everything<br>
+         <br>
+        
+        <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+        
+        
+        </form>
+
+
+        <div id = "afterSubmit">
+          <p id = "correctAnswers"></p>
+          <p id = "wrongAnswers"></p>
+          <p id = "unanswered"></p>
+        </div>
+
+
+
+
+         <!-- <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline1">Toggle this custom radio</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline2">Or toggle this other custom radio</label> -->
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
